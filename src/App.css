@@ -1,27 +1,22 @@
 .app {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin-top: 50px;
-}
-
-input {
-  padding: 10px;
-  font-size: 16px;
-  width: 300px;
-  margin-right: 10px;
-}
-
-button {
-  padding: 10px 15px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.weather-info {
-  margin-top: 20px;
+  margin-top: 150px;
 }
 
 .error {
   color: red;
   font-weight: bold;
+}
+
+.weather-info {
+  margin-top: 20px;
+  color: rgb(11, 10, 10);
+}
+.app {
+  text-align: center;
+  margin-top: 250px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 8px; /* Adds rounded corners */
 }
